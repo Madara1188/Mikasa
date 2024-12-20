@@ -39,7 +39,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
                 [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_Mayhem'),
-                 InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ongoing_Anime_Mayhem')],
+                 InlineKeyboardButton('ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/Aniime_Movies')],
                 [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
             ])
         )
