@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "29285243"))
 API_HASH = os.environ.get("API_HASH", "9324e1e962756ac511288fbf4696ddfd")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002045198417"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002295701234"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617"))
@@ -21,8 +21,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Yato:Yato@cluster0.aiper.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Yato")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://EternalsBots:EternalsBots@cluster0.heqn4vw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+")
+DB_NAME = os.environ.get("DATABASE_NAME", "EternalsBots")
 
 # Force sub channel id, if you want enable forcesub
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", ""))
