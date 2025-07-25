@@ -21,13 +21,12 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://EternalsBots:EternalsBots@cluster0.heqn4vw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-")
-DB_NAME = os.environ.get("DATABASE_NAME", "EternalsBots")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Mikasa:Mikasa@cluster0.mpdh2fg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Mikasa")
 
 # Force sub channel id, if you want enable forcesub
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", ""))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", ""))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1001657372440"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002431511485"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -42,7 +41,7 @@ ABOUT_TXT = "<b>›› Hi There {first}!💫\n┏━━━━━━━❪❂❫�
 # start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! ⚡\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Animes_Eternals</b>")
 try:
-    ADMINS=[5984303934]
+    ADMINS=[5734659617]
     for x in (os.environ.get("ADMINS", "5734659617").split()):
         ADMINS.append(int(x))
 except ValueError:
